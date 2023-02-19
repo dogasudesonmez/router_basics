@@ -1,0 +1,37 @@
+.app_navbar{
+	display: flex;
+	flex-direction: row;
+	background-color: deeppink;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0rem 1rem;
+}
+.app_navbar a{
+	text-decoration: none;
+}
+
+.app_header{
+	font-size: 24px;
+	color: ghostwhite;
+}
+
+.app_navbar .nav_list{
+	display: flex;
+	list-style: none;
+}
+.app_navbar .nav_list .item{
+	padding: 1rem;
+	margin-right: 1rem;
+}
+.app_navbar .nav_list .item a {
+	font-size: 16px;
+	color: ghostwhite;
+	
+}
+.app_navbar .nav_list .item:hover{
+	background-color:deepskyblue;
+	border-radius:8px;
+}
+.app_navbar .nav_list .item.active{
+	background-color:deepskyblue;
+}
